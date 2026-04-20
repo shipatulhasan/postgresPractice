@@ -32,4 +32,20 @@ values (
         'I am working so hard to make it happen',
         1
     ),
-    ('Hi there ')
+    (
+        'Hi there! I''m karim from ctg.',
+        2
+    ),
+    (
+        'Hello everyone working as a employee, attitude shouldn''t like a boss',
+        2
+    )
+
+insert into
+    posts (post, user_id)
+values (
+        'Hi there! What''s up everyone',
+        null
+    )
+
+alter table users rename column title to user_name
